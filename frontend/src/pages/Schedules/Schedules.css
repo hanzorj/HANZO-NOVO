@@ -1,0 +1,82 @@
+/* Adicione as regras CSS para ocultar os ícones */
+.event-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+  }
+  
+  /* .delete-icon,
+  .edit-icon {
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 5px; 
+    z-index: 1; 
+  }
+  
+  .event-container:hover .delete-icon,
+  .event-container:hover .edit-icon {
+    opacity: 1;
+  }
+   */
+#Bgcalendario{
+  background: 40px solid red!important;
+}
+.rbc-toolbar {
+  font-size: 20px;
+  background: #8731cf;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0;
+}
+.rbc-btn-group {
+  background: #8731cf;
+  border-radius: 0;
+}
+.rbc-btn-group button {
+  color: #FFF;
+  border: none;
+  border-left: 1px solid #051641;
+  padding: 10px;
+  border-radius: 0;
+}
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+  background-color: #051641;
+  border: none;
+  border-radius: 0;
+}
+.rbc-month-view {
+  border: none;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.rbc-off-range-bg {
+  background: #eedbff; 
+}
+.rbc-event, .rbc-day-slot .rbc-background-event {
+  border: none;
+  background-color: #051641;
+  text-align: left;
+}
+
+.rbc-month-row {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1 0;
+  flex-basis: 0px;
+  overflow: hidden;
+  height: 100%;
+  color: #8731cf;
+  font-weight: bold;
+}
+.rbc-header {
+
+  border-bottom: 1px solid #051641;
+}
+.rbc-month-header {
+  border-bottom: 1px solid #051641;
+}
